@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jatheo Hotel - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <h1>Hotel Jatheo</h1>
+                </div>
+                <nav class="nav">
+                    <a href="index.html" class="nav-link active">Home</a>
+                    <a href="rooms.html" class="nav-link">Rooms</a>
+                    <a href="about.html" class="nav-link">About</a>
+                    <a href="contact.html" class="nav-link">Contact</a>
+                    <a href="signup.html" class="nav-link">Sign Up</a>
+                    <a href="profile.html" class="nav-link">Profile</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Welcome to Jatheo Hotel</h2>
+                <p>Experience comfort and luxury in the heart of the city</p>
+                
+                <!-- Quick Booking Form -->
+                <div class="quick-booking">
+                    <h3>Quick Booking</h3>
+                    <form action="booking.html" method="GET">
+                        <div class="booking-row">
+                            <div class="booking-field">
+                                <label>Check-in</label>
+                                <input type="date" name="checkin" required>
+                            </div>
+                            <div class="booking-field">
+                                <label>Check-out</label>
+                                <input type="date" name="checkout" required>
+                            </div>
+                        </div>
+                        <div class="booking-row">
+                            <div class="booking-field">
+                                <label>Guests</label>
+                                <select name="guests">
+                                    <option value="1">1 Guest</option>
+                                    <option value="2">2 Guests</option>
+                                    <option value="3">3 Guests</option>
+                                    <option value="4">4 Guests</option>
+                                </select>
+                            </div>
+                            <div class="booking-field">
+                                <label>Room Type</label>
+                                <select name="room_type">
+                                    <option value="">Any Type</option>
+                                    <option value="single">Single Room - UGX 340,000</option>
+                                    <option value="double">Double Room - UGX 490,000</option>
+                                    <option value="suite">Suite - UGX 750,000</option>
+                                    <option value="deluxe">Deluxe - UGX 1,120,000</option>
+                                </select>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn-primary">Check Availability</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features">
+            <div class="container">
+                <h2>Why Choose Jatheo Hotel?</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">Hotel</div>
+                        <h3>Luxury Rooms</h3>
+                        <p>Spacious rooms with modern amenities</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">Restaurant</div>
+                        <h3>Fine Dining</h3>
+                        <p>Restaurant with local cuisine</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">Pool</div>
+                        <h3>Swimming Pool</h3>
+                        <p>Beautiful outdoor pool</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">WiFi</div>
+                        <h3>Free WiFi</h3>
+                        <p>High-speed internet</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Popular Rooms -->
+        <section class="popular-rooms">
+            <div class="container">
+                <h2>Popular Rooms</h2>
+                <div class="rooms-preview">
+                    <div class="room-preview">
+                        <div class="room-image">Room</div>
+                        <div class="room-info">
+                            <h4>Single Room</h4>
+                            <p>Perfect for solo travelers</p>
+                            <div class="room-price">UGX 340,000/night</div>
+                            <a href="rooms.html" class="btn-secondary">View Details</a>
+                        </div>
+                    </div>
+                    
+                    <div class="room-preview">
+                        <div class="room-image">Room</div>
+                        <div class="room-info">
+                            <h4>Double Room</h4>
+                            <p>Great for couples</p>
+                            <div class="room-price">UGX 490,000/night</div>
+                            <a href="rooms.html" class="btn-secondary">View Details</a>
+                        </div>
+                    </div>
+                    
+                    <div class="room-preview">
+                        <div class="room-image">Room</div>
+                        <div class="room-info">
+                            <h4>Luxury Suite</h4>
+                            <p>Ultimate comfort</p>
+                            <div class="room-price">UGX 750,000/night</div>
+                            <a href="rooms.html" class="btn-secondary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <a href="rooms.html" class="btn-primary">View All Rooms</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Hotel Jatheo</h3>
+                    <p>Your luxury home away from home</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="rooms.html">Rooms</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>123 Hotel Street</p>
+                    <p>+1 234 567 8900</p>
+                    <p>info@jatheohotel.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Jatheo Hotel. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
